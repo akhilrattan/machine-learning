@@ -1,0 +1,15 @@
+number = [1,2,4,3,3,6,7,34,5]
+number.append(6)
+print(number)
+number.remove(6)
+print(number)
+number.sort()
+print(number)
+number.reverse()
+print(number)
+print(max(number))
+print(min(number))
+print(sum(number)/len(number))
+print(number.count(3))
+print(number[1:3])
+
